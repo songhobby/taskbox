@@ -1,6 +1,6 @@
 import React from "react";
 
-import TaskList, { PureTaskList } from "./TaskList";
+import { PureTaskList } from "./TaskList";
 import * as TaskStories from "./Task.stories";
 
 const component = {
