@@ -2,7 +2,7 @@ import React from 'react';
 
 import Task from './Task';
 
-export default {
+const component = {
   component: Task,
   title: 'Task',
 };
@@ -34,3 +34,5 @@ Archived.args = {
     state: 'TASK_ARCHIVED',
   },
 };
+
+export default component;
